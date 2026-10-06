@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início | ONG Mãos Solidárias</title>
+  <meta name="description" content="ONG Mãos Solidárias: arrecadação e distribuição de alimentos e roupas para famílias em vulnerabilidade.">
+  <link rel="icon" href="../imagens/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Ir para o conteúdo</a>
+<header>
+  <div class="container">
+    <a class="marca" href="index.html"><img src="../imagens/favicon.svg" alt="" width="40" height="40">Mãos Solidárias</a>
+    
+<nav class="menu" aria-label="Menu principal">
+
+  <button class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="menu-principal">
+    ☰ <span class="sr-only">Abrir menu</span>
+  </button>
+
+  <ul id="menu-principal" class="menu-list">
+
+    <li>
+      <a href="index.html" aria-current="page">Início</a>
+    </li>
+
+    <li class="dropdown">
+      <a href="/projetos" data-route>Projetos</a>
+
+      <ul class="submenu">
+        <li><a href="projetos.html#alimentos">Alimentos</a></li>
+        <li><a href="projetos.html#roupas">Roupas</a></li>
+        <li><a href="projetos.html#voluntariado">Voluntariado</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="cadastro.html">Seja voluntário</a>
+    </li>
+
+  </ul>
+
+  <button id="tema-toggle" type="button" aria-pressed="false">
+  Modo escuro
+</button>
+
+</nav>
+
+
+  </div>
+</header>
+
+<main id="conteudo">
+  <div id="app"></div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 ONG Mãos Solidárias. Todos os direitos reservados.</p>
+    <ul aria-label="Redes sociais">
+      <li><a href="https://www.instagram.com/" rel="noopener">Instagram</a></li>
+      <li><a href="https://www.facebook.com/" rel="noopener">Facebook</a></li>
+      <li><a href="mailto:contato@maossolidarias.org.br">E-mail</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="../js/menu.js"></script>
+<script src="../js/storage.js"></script>
+<script src="../js/router.js"></script>
+</body>
+</html>
